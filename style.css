@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+
+body{
+  margin-top: 0px;
+  padding-top: 0px;
+  background-image: url(./Images/90sbackground2.jpeg);
+}
+
+.menu {
+  text-shadow: 0 0 5px black, 0 0 10px white, 0 0 15px black, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  font-size: 30px;
+  box-sizing: content-box;
+  font-family: 'Gorditas', cursive;
+   
+}
+
+.menu a {
+  color: black;
+}
+
+.menu a:hover {
+  color: goldenrod;
+}
+
+.demotext {
+  color: #FFF;
+  background-color: black;
+  display: flex;
+  display: inline;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 15%;
+  align-items: center; 
+  justify-content: center;
+  font-family: 'Gorditas', cursive;
+
+}
+
+
+
+.image-cropper-Dexter {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 0%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-Dexter img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-Doug { 
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: -15%;  
+  border: 5px solid rgba(13, 150, 8, 0.671);
+} 
+
+.image-cropper-Doug img {
+  width: 100%;
+  height: 100%; 
+}
+
+.image-cropper-DuckTales {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 600px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-DuckTales img {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-cropper-Ed_Ed_Eddy {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-left: 800px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-Ed_Ed_Eddy img {
+  width: 100%;
+  height: 100%;  
+  object-position: center;
+}
+
+.image-cropper-HeyArnold {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 5%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-HeyArnold img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-King {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-King img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-Looney {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 600px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-Looney img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-MTv {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 800px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-MTv img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-Ninja {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 5%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-Ninja img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-Powerpuff {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-Powerpuff img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-PowerRangers {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;  
+  margin-left: 600px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-PowerRangers img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-SouthPark {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 800px;
+  margin-top: -15%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-SouthPark img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-cropper-The_Simpsons {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 500px;
+  margin-top: 5%;
+  border: 5px solid rgba(13, 150, 8, 0.671);
+}
+
+.image-cropper-The_Simpsons img {
+  width: 100%;
+  height: 100%;
+}
+
+
